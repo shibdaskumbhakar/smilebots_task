@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from rest_framework import viewsets
 from django.contrib.auth.models import User
-from .models import Post, Comments, Like, CommentLike
+from .models import Post, Comments, Like
 from rest_framework.authentication import TokenAuthentication
 from .serializers import UserSerializer, PostSerializers, CommentSerializers, LikeSerializers
 from rest_framework.permissions import IsAuthenticated, AllowAny
