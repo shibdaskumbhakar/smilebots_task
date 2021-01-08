@@ -1,0 +1,11 @@
+
+
+
+1. python 3
+2.django==2.2
+3.djangorestframework==3.12
+
+
+
+admin username == smilebots
+password == smilebots
